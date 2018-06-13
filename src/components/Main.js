@@ -57,7 +57,7 @@ Thank you for your ongoing love and support. We are so excited to share this day
 
         <article id="directions" className={`${this.props.article === 'directions' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Directions</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1648.8810997598475!2d-105.5994554421037!3d34.25461109513784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDE1JzE2LjYiTiAxMDXCsDM1JzU0LjEiVw!5e0!3m2!1sen!2sus!4v1528908276372" width="100%" height="25%" frameborder="0"  allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1648.8810997598475!2d-105.5994554421037!3d34.25461109513784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDE1JzE2LjYiTiAxMDXCsDM1JzU0LjEiVw!5e0!3m2!1sen!2sus!4v1528908276372" width="100%" height="300px" frameborder="0"  allowfullscreen></iframe>
           <p>Fuller House <br />
           911 Old Crown St <br />
           Corona, NM 88318 </p>
