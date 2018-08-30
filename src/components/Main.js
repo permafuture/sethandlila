@@ -12,8 +12,9 @@ class Main extends React.Component {
 
         <article id="welcome" className={`${this.props.article === 'welcome' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Welcome</h2>
-          <p>With the wedding fast approaching, we’ve created this website as a convenient and interactive way to share all the important details with everyone.</p><p>
-Have fun, take a look around and don’t forget to RSVP!</p><p>
+          <p>With the wedding now past, we’ll continue to maintain this website as a convenient and interactive way to share all the important details with everyone.</p>
+          <h3>The wedding photos are now available!</h3> <p> <a href="https://drive.google.com/drive/folders/1GldKWRgFOwsaKdT_HD2F-NQEhfwVbsrS?usp=sharing">Check them out on this shared folder.</a></p>
+          <p>
 Thank you for your ongoing love and support. We are so excited to share this day with all of our favorite people!</p>          <span className="image main"><img src={"img/ring.jpg"} alt="" /></span>
 
           {close}

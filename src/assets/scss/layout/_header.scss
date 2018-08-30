@@ -66,8 +66,8 @@
 			border-style: solid;
 			border-color: _palette(border);
 			border-top-width: _size(0);
-			border-bottom-width: _size(border-width);
 			max-width: 100%;
+			height: 100%;
 
 			.inner {
 				@include vendor('transition', (
@@ -76,7 +76,7 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				padding: 3rem 2rem;
+				padding: 0 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 
@@ -85,8 +85,8 @@
 				}
 			}
 			h1 {
-				margin-bottom: 8rem;
-				margin-top: 5rem;
+				margin-bottom: 10rem;
+				margin-top: -2rem;
 				text-shadow: -1px 2px 3px _palette(fg-shadow);
 			}
 			p {
@@ -98,7 +98,31 @@
 				text-shadow: -1px 2px 1px _palette(fg-shadow);
 			}
 			.day {
-				color: _palette(fg-accent);
+				color: _palette(border);
+				font-size: 1.5rem;
+				text-shadow: -1px 2px 1px _palette(fg-accent);
+
+
+									a {
+										display: block;
+										line-height: 2.75rem;
+										padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
+										text-transform: uppercase;
+										letter-spacing: _font(letter-spacing);
+										border-bottom: 0;
+										text-shadow: -.1px .2px 1px _palette(fg-shadow);
+
+
+										&:hover {
+											background-color: _palette(border-bg);
+											color: _palette(fg);
+											text-shadow: -.1px .2px 1px _palette(fg-accent);
+										}
+
+										&:active {
+											background-color: _palette(border-bg-alt);
+										}
+									}
 			}
 		}
 
@@ -224,7 +248,7 @@
 
 			.content {
 				.inner {
-					padding: 2.5rem 1rem;
+					padding: 1rem 1rem;
 				}
 
 				p {
